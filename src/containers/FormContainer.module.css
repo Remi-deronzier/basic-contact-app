@@ -1,0 +1,17 @@
+.form_container_add_button {
+  border: none;
+  background: #3949ab;
+  border-radius: 10rem;
+  color: white;
+  padding: 0.3rem 1rem;
+  padding-top: 0.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.form_container_wrapper {
+  margin-top: 20px;
+  background-color: var(--gray-background-color);
+  border-radius: var(--main-border-radius);
+  display: flex;
+}

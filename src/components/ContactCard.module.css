@@ -1,0 +1,37 @@
+.contact_card_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--main-border-radius);
+  padding: 20px;
+}
+
+.contact_card_info:nth-child(2n + 1) {
+  background-color: var(--gray-background-color);
+}
+
+.contact_card_email {
+  margin: 0;
+  color: #616161;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+
+.contact_card_remove_button {
+  border: none;
+  background: #ef5350;
+  border-radius: 10rem;
+  color: white;
+  padding: 0.2rem 0.8rem;
+  padding-top: 0.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  opacity: 0;
+  transition-duration: 0.3s;
+  right: 1rem;
+}
+
+.contact_card_remove_button:hover {
+  opacity: 1;
+}
